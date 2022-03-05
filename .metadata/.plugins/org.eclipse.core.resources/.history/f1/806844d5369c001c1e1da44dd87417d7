@@ -21,7 +21,7 @@ public class BooleanOperatorExample {
 		// 200 < 500 - True
 		System.out.println("Opertor => \"<\"");
 		System.out.println("Expected value " + "true");
-		System.out.println("Actual value "+ (200<500));
+		System.out.println("Actual value "+ (200>500));
 		// 500 < 400  - False
 		System.out.println("Opertor => \"<\"");
 		System.out.println("Expected value " + "false");
@@ -83,9 +83,6 @@ public class BooleanOperatorExample {
 		System.out.println("Expected value " + "true");
 		System.out.println("Actual value "+ (100!=200));
 		// 100 == 100 - Not True => False
-		
-		
-		
 
 	}
 

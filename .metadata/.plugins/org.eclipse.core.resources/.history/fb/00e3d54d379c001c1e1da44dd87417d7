@@ -83,9 +83,6 @@ public class BooleanOperatorExample {
 		System.out.println("Expected value " + "true");
 		System.out.println("Actual value "+ (100!=200));
 		// 100 == 100 - Not True => False
-		
-		
-		
 
 	}
 
