@@ -19,11 +19,5 @@ public class SecondClassForOperator {
 		System.out.println("Reminder  =>"+res);
 
 	}
-	
-	// Take two number 
-	// try to swap it
-	// x=100 y=200
-	// x=200 y=100
-	
 
 }
