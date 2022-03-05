@@ -1,0 +1,22 @@
+package class02;
+
+public class LogicalAndOrNotOperatorExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// AND -> used to connect multiple boolean operator
+		// AND -> if all result of the connected boolean operator is true -> final result will be true
+		// AND -> if any connected boolean operator is false -> final result will be false
+
+		// OR -> used to connect multiple boolean operator
+		// OR -> if all result of the connected boolean operator is false -> final result will be false
+		// OR -> if any connected boolean operator is true -> final result will be true
+
+		// NOT -> used to connect multiple boolean operator
+		// NOT TRUE -> False
+		// NOT FALSE -> TRUE
+
+
+	}
+
+}
