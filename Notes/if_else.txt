@@ -1,0 +1,144 @@
+boolean operator
+boolean data type -> true/false
+boolean operator -> result (true or false)
+conditional operator
+----------------------
+first number and second number
+200 > 100 - true /false
+store in boolean data type variable
+result = true
+200 is greater than 100 - display (result=true)
+if() - conditional operator
+if(condition/boolean result){ - true
+---
+---
+--
+} // close
+// situation -2
+100>200 -> false
+result= true
+result=false
+
+if(condition/boolean result ) - when result is true
+{
+---
+---
+--
+}
+else{ 
+--
+--
+--
+}
+
+situation - 3
+
+100>200 - result -> false
+100 > 150 - result - false
+100 > 125 - result - false
+100 > 100 - result - false
+100>50 - true
+if(boolean result){ -> result false
+---
+---
+} else if (boolean result){ -> result false
+---
+--
+}
+else if (boolean result) -> result false
+{
+--
+--
+}
+else if (boolean result) -> result true
+{
+---
+--
+}
+else 
+{
+----
+-----
+}
+
+--------------------- Mutliple fix value -------------------
+print the month name
+print the day name
+
+1 - sunday
+2 - Monday
+3 - Tuesday
+4- Wedness day
+5 - Thursday
+
+swith(value){
+case label: (label always be decimal number or string or char)
+----
+---
+break;
+case label2:
+---
+--
+break;
+case label3:
+---
+--
+break;
+default:
+---
+----
+--
+}
+
+-------------------- Switch case ---
+swich(value){
+case label:
+	if(boolean value){
+	---
+	--
+	}
+brak;
+default:
+---
+}
+
+--- Nested if --- 
+Student - college/school
+Stream - science/arts/commerce
+if(student-> college)
+{
+	if(steam ->science)
+	{
+		----
+		--
+	}
+	else if(stream -> arts){
+	---
+	}
+	else if(stream -> commerce)
+	{
+	---
+	--
+	} // inner closer
+
+} // upper close
+
+else if (student -> school)
+{
+	if(class - Tenth)
+	{
+		if(native language -> urdu)
+		{
+			---
+			--
+		}
+	---
+	--
+	}
+
+logical operator -> & or | 
+	
+
+
+
+ 
