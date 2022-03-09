@@ -1,0 +1,46 @@
+Project Manager
+----------------------
+TextBox 
+Test - It should accept only integer
+
+Simple - > capital case - small case
+
+Two ways
+
+alpha>='A'  
+'A'>='A' => 'A'>'A' | 'A'=='A' => False | True => True
+alpha<='Z'
+'A'<='Z' => 'A'<'Z' | 'A'=='z' -> True | False => True
+
+alpha>='A' & alpha<='Z'
+True & True => True
+if(True){
+	"You entered capital alphabet"
+}
+
+alpha>='a' & alpha<='z'
+'A'>='a' => 'A'>'a' | 'A'=='a'  (ASCII) - A -> 65 - a-> 97
+		False | False => False
+'A'<='z' => 'A'<'z' | 'A'=='z' 
+		True | False => True
+alpha>='a' & alpha<='z'
+False & True -> False
+if(True){
+skip and switch to else
+}
+else
+{
+	'you entered integer'
+}
+!True -> false
+!False -> True
+-----
+
+if("Selenium"){
+syso("Automation")
+}
+else
+{
+	syso("Manual")
+}
+
