@@ -32,12 +32,13 @@ public class IfElseConditionalConstructExample {
 	}
 	
 	static void trueExample() {
-		if(true) {
+		if(false) {
 			System.out.println("I am true - if block is executed");
 		}
 		else {
 			System.out.println("I am false - else block is executed");
 		}
 	}
+	
 
 }
