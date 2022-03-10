@@ -1,0 +1,23 @@
+Problem description
+---------------
+percentage greater 90 - Label -> Excellent
+percentage >=80 and <=89.99 -> Very good
+percentage >=60 and <=79.99 -> good
+percentage >=50 and <=59.99 -> Fair
+otherwise -> Poor
+1 - Sunday
+2- Monday
+......
+Interview -> 
+Input -> Qualification -
+MCA -> Interview Automation
+BCA -> Inteview Manual
+B.Tech -> Interview for Database
+BBA -> -> Interview sales
+MBA -> Interview marketing
+
+
+
+
+
+
