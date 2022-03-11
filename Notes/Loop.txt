@@ -1,0 +1,81 @@
+Loop
+----
+1. While  
+2. do - while
+3. for
+4. for each -- Object (Array of Object)
+----
+Loop - > 
+-------
+Hello!!! World -> 2 times
+System.out.println("Hello!!! World");
+System.out.println("Hello!!! World");
+Hello!!! World -> 5 times
+System.out.println("Hello!!! World");
+System.out.println("Hello!!! World");
+System.out.println("Hello!!! World");
+System.out.println("Hello!!! World");
+System.out.println("Hello!!! World");
+
+Hello!!! World -> 100 times
+
+Hello!!! World -> 1000 times
+
+Hello!!! World -> 10000 times 
+
+Hello!!! World -> 100, 200, 300
+
+Looping -> certain time / uncertain time
+
+10 times 
+20 times
+500 times
+time / output
+Java ->
+
+java looping
+------------
+
+while(boolean value){
+---
+---
+---
+}
+
+do
+{
+---
+--
+}while(boolean value);
+
+for(;boolean value;){
+---
+--
+}
+
+for(object in objects){
+--
+--
+}
+
+int time=1; // variable declration
+while(time<=5){
+System.out.println("Hello!!! World");
+time++;
+}
+
+variable intialization
+while(condition)
+{
+---
+incr/decr
+}
+
+5 times 
+variable dec x=5;
+while(x>=1)
+{
+state--1;
+x+=10; // decrement
+}
+
