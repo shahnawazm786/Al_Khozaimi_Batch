@@ -21,5 +21,4 @@ public class PrintExample {
 		System.out.println("***a");
 		System.out.print("****a");
 			}
-
 }
