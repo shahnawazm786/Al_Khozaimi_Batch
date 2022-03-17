@@ -10,6 +10,9 @@ public class ForLoopExample {
 		// TODO Auto-generated method stub
 		//forLoopExample();
 		forLoopPrintOddNumber();
+		System.out.println();
+		System.out.println("Even number");
+		forLoopPrintEvenNumber();
 	}
 	
 	static void forLoopExample() {
@@ -37,4 +40,22 @@ public class ForLoopExample {
 		}
 	}
 
+	static void forLoopPrintEvenNumber() {
+		// for(int x=1;;)
+		// print 1 to 10
+		int firstNumber;
+		int lastNumber;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number to start :- ");
+		firstNumber=sc.nextInt();
+		System.out.println("Enter a number to end :- ");
+		lastNumber=sc.nextInt();
+		for(int x=firstNumber;x<=lastNumber;x++) {
+			if(x%2==0) {
+				System.out.print(x+"  ");
+			}
+		}
+	}
+	
+	
 }
