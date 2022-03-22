@@ -1,0 +1,25 @@
+package class10;
+
+public class DoWhileExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		doWhile();
+		doWhileNumberPrint();
+	}
+	static void doWhile() {
+		do {
+			System.out.println("Hello!!!");
+		}while(false);
+	}
+	
+	static void doWhileNumberPrint() {
+		// 1 to 10 by using do -while
+		int x=1;
+		do {
+			System.out.println(x);
+			x++;
+		}while(x<10);
+	}
+
+}

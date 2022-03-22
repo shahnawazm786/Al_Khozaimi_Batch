@@ -1,0 +1,18 @@
+package class10;
+
+public class ForLoopExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		forLoopExample();
+	}
+	
+	static void forLoopExample() {
+		// for(int x=1;;)
+		// print 1 to 10
+		for(int x=1;x<=10;x++) {
+			System.out.println(x);
+		}
+	}
+
+}

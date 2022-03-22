@@ -1,0 +1,45 @@
+1 1 1 1
+1 1 1 1
+1 1 1 1
+1 1 1 1
+--
+No of rows and no columns
+1 2 3 4
+A A A A rows1
+A A A A rows2
+A A A A rows3
+A A A A rows3
+
+without nested loop
+-16 times A
+1 line - A 4times
+2 line - A 4 times
+3 line - A 4 times
+4 line - A 4 times
+ 
+Hello world - 25 times
+
+first times count - 16 times 'A'
+c
+* r1
+* * r2
+* * * r3
+* * * * r4
+1
+1 2
+1 2 3
+1 2 3 4
+
+1 - row 1
+2 1 row 2
+3 2 1 row 3
+4 3 2 1 row 4
+
+1
+1  2
+1  2  3
+1  2  3  4 - value increase
+1  2  3
+1  2
+1 value decrease
+

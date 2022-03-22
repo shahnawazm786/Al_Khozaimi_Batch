@@ -1,0 +1,40 @@
+package class09;
+
+public class NestedLoop01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// printA16Times();
+		printA16TimesByLoop();
+	}
+	static void  printA16Times() {
+		// 16 times 'A'
+		System.out.println("A");
+		System.out.println("A");
+		System.out.println("A");
+		System.out.println("A");
+		
+		System.out.println("A");
+		System.out.println("A");
+		System.out.println("A");
+		System.out.println("A");
+		
+		System.out.println("A");
+		System.out.println("A");
+		System.out.println("A");
+		System.out.println("A");
+		
+		System.out.println("A");
+		System.out.println("A");
+		System.out.println("A");
+		System.out.println("A");
+		
+	}
+	static void printA16TimesByLoop() {
+		int x=1;
+		while(x<=16) {
+			System.out.print("A");
+			x++;
+		}
+	}
+}

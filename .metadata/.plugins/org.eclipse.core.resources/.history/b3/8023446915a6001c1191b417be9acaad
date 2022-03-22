@@ -1,0 +1,10 @@
+package class10;
+
+public class ForLoopPatternPrint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

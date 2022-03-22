@@ -1,0 +1,15 @@
+package class08;
+
+public class PrintExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("a");
+		System.out.print("*");
+		System.out.print("a");
+		System.out.println();
+		System.out.print("----------");
+		System.out.print("a");
+	}
+
+}
