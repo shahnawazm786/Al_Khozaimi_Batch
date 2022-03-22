@@ -1,0 +1,37 @@
+package class10;
+
+import java.util.Scanner;
+
+public class BreakKeyWordExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//breakExample();
+		breakExample1();
+	}
+	static void breakExample() {
+		int firstNumber,lastNumber;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number to be start ->");
+		firstNumber=sc.nextInt();
+		System.out.println("Enter number to be start ->");
+		lastNumber=sc.nextInt();
+		for(;firstNumber<=lastNumber;firstNumber++) {
+			if(firstNumber>500)//firstNumber>=500
+				break;
+			System.out.println("Number is -> "+firstNumber);
+		}
+		System.out.println("Control out from the Loop");
+				
+	}
+	
+	static void breakExample1() {
+		for(int i=1;i<=10; i++)
+		{
+			if(i>5)
+				break;
+			System.out.println(i);
+		}
+	}
+
+}

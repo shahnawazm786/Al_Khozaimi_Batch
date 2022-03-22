@@ -1,0 +1,26 @@
+package class10;
+
+public class ArrayOfPrimitiveDataTypeExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a=new int[10];
+		char[] b=new char[4];
+		a[0]=100;
+		a[1]=200;
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+		//System.out.println(a[10]);
+		b[0]='a';
+		b[1]='e';
+		b[2]='i';
+		b[3]='o';
+		System.out.println(b[0]);
+		System.out.println(b[1]);
+		System.out.println(b[2]);
+		System.out.println(b[3]);
+		
+	}
+
+}
