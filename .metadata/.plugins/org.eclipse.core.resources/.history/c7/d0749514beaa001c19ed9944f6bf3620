@@ -19,9 +19,9 @@ public class CountCharacterInString {
 	static int charCount(String s,char c) {
 		int noOfCount=0;
 		for(char c1 : s.toCharArray()) {
-			if(c==c1) {
-				noOfCount++;	
-			}
+		if(c==c1) {
+		noOfCount++;	
+		}
 		}
 		return noOfCount;
 	}

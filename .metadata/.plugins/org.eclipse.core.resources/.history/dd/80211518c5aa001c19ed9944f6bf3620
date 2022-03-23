@@ -1,0 +1,16 @@
+package question;
+
+public class CharCountFromStringShortCutMethodExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String st="Hello I am java programmer";
+		System.out.println(st);
+		int tot=st.length();
+		System.out.println("No of character =>"+tot);
+		int tot_char=st.replace("a","").length();
+		System.out.println(tot - tot_char);
+		
+	}
+
+}
