@@ -1,0 +1,81 @@
+Methods/Functions / Behaviors
+------------------------------
+Use
+----
+	Complex Program - Multiple Functionality in one application
+
+----------------------------------
+Swiggy - Web Application / Android Application
+----------------------------------------------
+User registration / unknown user
+Address and Location for Delivery 
+Dishes 
+Order placed - no of quantity
+Checkout - 
+Payment - 
+Transaction Details -
+Payment Details - 
+Order Tracking -
+
+------
+Features - > 1 program - 50, 000 lines program
+Java Language 
+------
+Option provide - Function wrapped
+
+Features - Function
+------
+Maintenance - easy ( Debug, Modify) - 25%
+
+Add User -> 
+Add Address -> Error
+Type function
+---------------
+
+1. Parameter & non parameter
+2. return type & non return type
+
+1. Non Paramter & No return type
+2. Non paramter & return type
+3. Parameter & no return type
+4. Parameter & return type
+
+primitive - int,char,float,double,boolean
+non primitive - object
+
+template of function declaration
+1. template
+specifier void function_name(){
+--
+---
+--
+}
+2.template
+return data type - primitive or non primitive
+specifier returntype function_name(){
+---
+---
+return return type;
+}
+3. template
+specifier void function_name(datatype datatypename1,datatype datatypename2,datatype datatypename3,.....datatype datatypenameN){
+---
+---
+---
+}
+4.template
+specifier return type function_name(datatype datatypename1,datatype datatypename2,datatype datatypename3,.....datatype datatypenameN){
+----
+----
+return return type;
+}
+
+
+
+Function -> Same class multiple
+Different class - Inheritence
+
+
+main method - static
+static 
+object method
