@@ -1,0 +1,27 @@
+Modifier in java
+---------------------
+public private and default(package level)
+
+class level - public, default, abstract, final, staticfp
+
+class is declared public - the visibility of the class is global.
+we can acess the class within the package or outside the package. (Entire Application)
+
+class is declared no modifier(default/package level) - the visibility of the class is only within the package where it is declared.
+we can't acess the class outside the package.
+
+class is declared abstract -> when you don't want to create an object of the class.
+
+class is declared final -> when you don't want to make the class as child.
+
+
+-- Data Member Modifier ---
+Data Member modifier - private, default, public, protected, static, final, volatile
+
+if a data member of a class is declared private,then  visibility of the data member is only within the declared class.
+
+highly recomended by java
+Data Member - variable - private
+Data Member - services/methods - public
+
+
