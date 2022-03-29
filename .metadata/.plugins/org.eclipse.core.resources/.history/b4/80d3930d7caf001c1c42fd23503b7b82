@@ -1,0 +1,10 @@
+package pack5;
+
+public class AccessedCarClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

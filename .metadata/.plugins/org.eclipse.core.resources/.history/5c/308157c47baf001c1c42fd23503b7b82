@@ -1,0 +1,23 @@
+package pack4;
+
+public class Car {
+	// Getter and Setter method to supply data from the one package to another package
+	private String modelName; // Data Hiding
+	private int noOfWheel; // Data Hiding
+	private double price; // Data Hiding
+	/**
+	 * @return the modelName
+	 */
+	public String getModelName() {
+		return modelName;
+	}
+	/**
+	 * @param modelName the modelName to set
+	 */
+	public void setModelName(String modelName) {
+		this.modelName = modelName;
+	}
+	
+	
+	
+}
