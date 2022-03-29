@@ -1,0 +1,5 @@
+package pack1;
+
+ class OuterClass {
+	int a=100;
+}

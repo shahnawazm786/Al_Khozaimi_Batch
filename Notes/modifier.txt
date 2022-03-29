@@ -1,0 +1,43 @@
+Access speicifier or Access Modifier
+--------------------------------------
+c/c++ - java
+Access Modifier has been used in java
+-=====
+class 
+data member / variables/ properties
+function or method of the class
+class Abc (protected, private, public, abstract static, final)
+{
+---
+--
+}
+
+we are changing the state of an object.
+---
+Modifier - default, protected, private, public
+
+private - data member / method
+only accessible within the class.
+
+Class A
+{
+private int age;
+}
+class B
+{
+public static void main(String[] args)
+{
+A a=new A();
+a.age=10; // age is private member of a class A
+}
+}
+
+--
+public - global access (same class, different class within the package, different class outside package)
+
+default - within package ( accessible within package)
+
+protected - default + child class (kids)
+
+--========
+

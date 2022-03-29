@@ -1,0 +1,9 @@
+package pack1;
+
+private class OuterClass {
+	int a=100;
+	public static void main(String[] args) {
+		System.out.println("Private class");
+	}
+	
+}
