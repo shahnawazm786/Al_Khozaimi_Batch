@@ -1,0 +1,79 @@
+Abstract method  and Abstract class
+------------------------------------
+In respect of development and interview
+----------------------------------------
+modifier - 
+class abstract modified -> you don't create an object
+
+default/public/protected class A
+{
+	public void m1(){
+}
+}
+// I can create an object A
+
+abstract class A1
+{
+}
+// I can't create an object of A1
+abstract is implemented in a child class
+
+
+
+abstract method -> a method which has been declared only not implemented
+public void getSalary(); // declaration
+public void getGrade(){} // Implementation of a method
+
+public class Vichle
+{
+public int getNumberWheel(){
+return 2,4,3,6;
+}
+}
+// Note - still vichle is not implemented so method can't be implemented.
+
+public class Vichle
+{
+public abstract int getNumberWheel();
+}
+
+public class Fruits
+{
+public abstract String getTaste();
+}
+
+public class Loan
+{
+	public abstract double getInterest();
+}
+
+-----
+1. public abstract void getMethod(){} - wrong
+2. public void getMethod(); - wrong
+3. public abstract void getMethod(); - correct
+4. public void getMethod(){} - correct
+
+3 is correct Mokim
+3 and 4 is correct
+
+class A
+{
+public void getCardDetails();
+public void getTransactionDetails();
+public void getOTPDetails();
+public void getOTPFailsDetails();
+public void getOTPPassDetails();
+}
+class A
+{
+public void getCardDetails(){}
+public void getTransactionDetails(){}
+public void getOTPDetails(){}
+public void getOTPFailsDetails(){}
+public void getOTPPassDetails(){}
+}
+
+
+
+
+
