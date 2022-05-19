@@ -1,0 +1,30 @@
+
+Name -
+DOB -
+DOJ -
+Address -
+Gender
+Designation - software engg/hardware engg
+Dept - IT
+---
+Project name - 
+
+Fin
+--
+Name -
+DOB -
+DOJ -
+Address -
+Gender
+Designation - Sr. Accountant / Jr. Accountant
+Dept - Fin
+
+HR
+--
+Name -
+DOB -
+DOJ -
+Address -
+Gender
+Designation - Executives
+Dept - HR

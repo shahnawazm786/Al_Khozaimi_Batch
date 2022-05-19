@@ -1,7 +1,6 @@
 package InheritExample;
 
 public class Demo {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		InterfaceImpl i=new InterfaceImpl();
@@ -10,7 +9,6 @@ public class Demo {
 		System.out.println(i.name);
 		//i.pie=4.141;
 		System.out.println(i.pie);
-		
 	}
 
 }
