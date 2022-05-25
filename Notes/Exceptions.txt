@@ -1,0 +1,42 @@
+Statement 1 
+Statement 2 /exception
+Statement 3
+Statement 4
+
+-- Error -> One type of mistake (Syntax error)
+-- Bugs  -> Not Meeting requirement (Bugs) - Scrum (Acceptance criteria)
+ -------------
+Exception - as also known as conditions
+
+Exception is an abnormal condition to flow the control 
+Application is not producing the orginal state
+
+Exception -> Checked and Unchecked
+
+Oracle -> Checked, Unchecked and Error
+
+Checked and Unchecked
+Compile time Exception is known as -> Checked Exception
+Runtime exception is called -> Unchecked Exception
+Checked Exception -> Time of development 
+  -> IOException
+  -> SQLException
+  -> FileNotFoundException 
+Direct - Exception 
+RuntimeException
+   -> NullPointerException
+   -> IndexOutofBoundException
+   -> StringOutofBoundException
+   -> ArithmeticException
+
+
+Exception 
+------------
+try -> exception caught
+catch  -> exception handle
+finally -> exception /normal execute (Garbage collection, memory realease, file pointer close, database connection close, cookies delete)
+
+throw -> exception 
+throws -> method level 
+
+Custom Exception 
