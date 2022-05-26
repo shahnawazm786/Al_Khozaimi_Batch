@@ -14,7 +14,7 @@ public class Excep1 {
 		b=sc.nextInt();
 		System.out.println("Statement 1");
 		try {
-		System.out.println("Statement 2 -> "+ a/b);
+		System.out.println("Statement 2 -> "+ a/b); // b=0
 		}catch(ArithmeticException ae) {
 			System.out.println("B =" + b);
 			System.out.println("Please user other value");
