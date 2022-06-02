@@ -4,7 +4,7 @@ public class Arrays {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] a= {900,200,700,500};
+		int[] a= {900,200,700,500}; // fast in work
 		int[] c=new int[4];
 		System.out.println(a.length);
 		System.out.println(a[0]); // show the value of 0th index
@@ -42,7 +42,6 @@ public class Arrays {
 					a1[j]=temp;
 				}
 			}
-			
 			}
 		// 
 		System.out.println("Sorting of array A");
