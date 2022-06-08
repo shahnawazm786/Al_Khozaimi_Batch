@@ -32,8 +32,5 @@ public class SetExample3 {
 	Set<Integer> marks6=new HashSet<>(marks1);
 	marks6.removeAll(marks); // Minus 
 	System.out.println(marks6);
-	
-		
 	}
-
 }
