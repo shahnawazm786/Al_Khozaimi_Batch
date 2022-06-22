@@ -30,14 +30,10 @@ public class FilesHandling {
 			System.out.println(c1);
 		}
 		reader.close();
-		
 	}
-	
 	static void writingDataFromFile() throws IOException {
 		FileWriter writer=new FileWriter("src/files/abc.txt");
 		writer.write("Hello I am good");
-		
 		writer.close();
-		
 	}
 }
